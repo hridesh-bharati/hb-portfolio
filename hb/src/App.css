@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.facebook-icon {
+  color: #3b5998;
+}
+
+.twitter-icon {
+  color: #1DA1F2;
+}
+
+.instagram-icon {
+  color: #C13584;
+}
+
+.linkedin-icon {
+  color: #0e76a8;
+}
+
+.github-icon {
+  color: #333;
+}
+
+.youtube-icon {
+  color: #FF0000;
+}
+
+.whatsapp-icon {
+  color: #25D366;
+}
+
+.card {
+  border: 0;
+}
+hr{
+  border-bottom: 1px solid #999fb3;
+}

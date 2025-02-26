@@ -1,0 +1,111 @@
+body {
+  background-color: #121212;
+  --tw-bg-opacity: 1;
+  /* background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1)); */
+}
+
+html {
+  scrollbar-width: none !important;
+  scroll-behavior: smooth !important;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+:root {
+  --color1: #3498db;
+  --color2: #e74c3c;
+  --color3: #2ecc71;
+  --color4: #9b59b6;
+  --color5: #f1c40f;
+  --color6: #e67e22;
+  --color7: #3498db;
+  --color8: #e74c3c;
+  --color9: #2ecc71;
+  --color10: #190041;
+  --color11: #f1c40f;
+  --color12: #e67e22;
+  --color13: #3498db;
+  --color14: #e74c3c;
+  --color15: #2ecc71;
+  --color16: #9b59b6;
+  --color17: #f1c40f;
+  --color18: #f39c12;
+
+  --bg-dark: #1d1d1d;
+  --bg-darker: #121212;
+  --bg-muted: #333333;
+  --bg-light: #4f4f4f;
+  --bg-main: #212121;
+
+  --bg-blue: #1f2a44;
+  --bg-red: #3e1c1c;
+  --bg-green: #1c3e1c;
+  --bg-purple: #3e1f3e;
+  --bg-yellow: #4f3e1c;
+
+  --button-hover-blue: #2980b9;
+  --button-hover-red: #c0392b;
+  --button-hover-green: #27ae60;
+  --button-hover-purple: #8e44ad;
+  --button-hover-yellow: #f39c12;
+  --button-hover-orange: #d35400;
+
+  --bg-light-blue: #3b6f8d;
+  --bg-light-red: #9e2c2c;
+  --bg-light-green: #63b363;
+  --bg-light-purple: #a476c4;
+  --bg-light-yellow: #f3c23b;
+  --bg-light-orange: #e67e22;
+
+  --neutral-light: #8e8e8e;
+  --neutral-dark: #4f4f4f;
+
+  --border-blue: #3498db;
+  --border-red: #e74c3c;
+  --border-green: #2ecc71;
+  --border-purple: #9b59b6;
+  --border-yellow: #f1c40f;
+  --border-orange: #e67e22;
+  --border-white: #eeeeee;
+
+}
+.tile-line-horizontal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  overflow: visible;
+  position: relative;
+}
+
+.tile-line-horizontal div {
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tile-line-horizontal div:nth-child(odd) {
+  background-color: #2196f3;
+}
+
+.topspace{
+  margin-top: 3rem !important;
+}
